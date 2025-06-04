@@ -5,7 +5,7 @@ Welcome to the test project. This project aims to check skills of each kind of d
 # Getting Started
 - OS:<br/>
   Mac, Linux, Windows<br/>
-    \*This project is best suited for MacOS. 
+    \*This project works best on macOS. If you encounter any problems while using other operating systems, please contact the administrator.
 - Prerequirements:<br/>
   Node v20.x.x, Google Chrome
 - Installing Dependecies:<br/>
