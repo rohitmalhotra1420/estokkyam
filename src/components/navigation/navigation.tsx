@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import { navigations } from "./navigation.data";
 import { Link } from "@mui/material";
 import { useLocation } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 type NavigationData = {
   path: string;
@@ -64,6 +65,7 @@ const Navigation: FC = () => {
           {label}
         </Box>
       )}
+      <ThemeToggle />
       <Box
         sx={{
           position: "relative",

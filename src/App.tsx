@@ -1,17 +1,16 @@
 import React from "react";
 import "./App.css";
 import "./assets/css/globals.css";
-// import "./assets/css/react-slick.css";
-// import "slick-carousel/slick/slick.css";
-import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import { CssBaseline } from "@mui/material";
 import { useRoutes } from "react-router-dom";
 import Router from "./routes/Router";
-import theme from "./theme";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 function App() {
   const routing = useRoutes(Router);
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider>
+      <CssBaseline />
       <div className="App">{routing}</div>
     </ThemeProvider>
   );
